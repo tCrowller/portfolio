@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<!-- To look good in phone screens -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Welcome</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!-- Icons of fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Latest compiled and minified CSS of bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom style page -->
+    <link rel="stylesheet" href="assets/css/pers.css">
+    <!-- Poppins font family CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    
+	<!-- CDN AOS (LIBRERIA DE ANIMATION ON SCROLL) -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+    <!--|| CABECERA ||-->
+    <nav class="navbar navbar-expand-lg navbark-dark bg-dark bg-body-tertiary py-0 sticky-top text-white" data-bs-theme="dark">
+
+        <a class="navbar-brand" href="#">AG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item btn btn-outline-violet rounded-0 p-1 m-2">
+                    <a class="nav-link active" href="javascript:$('.scrollToTop').click();">Inicio</a>
+                </li>
+                <li class="nav-item btn btn-outline-violet rounded-0 p-1 m-2">
+                    <a class="nav-link active" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item btn btn-outline-violet rounded-0 p-1 m-2">
+                    <a class="nav-link active" href="https://tcrowller.carrd.co/" target="_blank">Arte</a>
+                </li>
+                <li class="nav-item btn btn-outline-violet rounded-0 p-1 m-2">
+                    <a class="nav-link active" href="#acerca">Acerca de</a>
+                </li>
+                <li class="nav-item btn btn-outline-violet rounded-0 p-1 m-2">
+                    <a class="nav-link active" href="#habilidades">Habilidades</a>
+                </li>
+                <!-- <li class="nav-item p-1 m-2 dropdown active">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-globe"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li> -->
+            </ul>
+
+        </div>
+    </nav>
+    <!--|| CABECERA ||-->
+    <div class="container-fluid mb-2">
+        <div class="row">
+            <div class="col-md-7 text-center pt-5">
+                <div class="d-flex w-100 h-100  flex-column align-items-center justify-content-center">
+                    <h1>¡Hola que tal!</h1>
+                    <h4>Soy un</h4>
+                    <h1 class="display-1 "><span class="auto-type"></span></h1>
+                </div>
+            </div>
+            <div class="col-md-5 text-right text-sm-center">
+                <img src="assets/img/tako2.png" class="w-100" alt="presentation image">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-sm">
+        <!-- ACERCA DE -->
+        <div class="row">
+            <div class="col-md-11 offset-md-1">
+                <div  data-aos="fade-up" id="acerca" style="margin-top: -7rem;">
+                    <div class="container-sm ">
+                        <div class="border-bottom-0 rounded-top pt-3 w-25 me-auto text-center text-nowrap">
+                            <h1>Sobre mí</h1>
+                        </div>
+                    </div>
+                    <div class="container-sm rounded-0 p-3">
+                        <div class="p-md-5">
+                            <div class="px-5 pb-5" data-aos="fade-up" data-aos-duration="500">    
+                                <p data-aos="fade-up" data-aos-duration="1000"><strong class="display-4">¿Quien es Alejandro Gómez?</strong> <br> <small><i  data-aos="fade-up" data-aos-duration="2000" class="text-justify">Aunque si buscas al artista voy por "Crowller".</i></small></p>
+                                <hr data-aos="fade-up" data-aos-duration="1000" style="border-top: 1px solid rgb(246 246 246);">
+                                
+                                <p  data-aos="fade-up" data-aos-duration="3000" class="text-justify">Soy un programador web e ilustrador independiente con hambre de aprendizaje y mejora continua, con un alto sentido de la responsabilidad y un enfoque muy creativo.
+                                    Me gusta enfrentarme a retos y ayudar a llegar a una conclusión efectiva con el agregado de que sea visualmente atractivo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ACERCA DE -->
+        <div id="habilidades">
+            <div class="container-sm border-top-0 rounded-0 py-3">
+                <div class="row">
+                    <div class="col-md-10 col-12">
+                        <div data-aos="fade-up" class="rounded-0 py-3 w-25 me-auto text-center">
+                            <h1>Habilidades</h1>
+                        </div>
+                        <!-- bg-violet rounded-0 -->
+                        <div class="container-sm border-top-0 rounded-0">                      
+                            <div class="row">
+                                <div data-aos="flip-left" data-aos-duration="3000" class="col-lg-2 col-3 p-4 m-auto text-center">
+                                    <a class="img-hover-icon img-hover-icon--colorize" href="javascript:void(0)">
+                                        <img class="w-100 lazyload pb-3" data-src="assets/img/html.svg">	
+                                    </a>
+                                    <h5>HTML</h5>
+                                </div>
+                                <div data-aos="flip-left" data-aos-duration="3000" class="col-lg-2 col-3 p-4 m-auto text-center">
+                                    <a class="img-hover-icon img-hover-icon--colorize" href="javascript:void(0)">
+                                        <img class="w-100 lazyload pb-3" data-src="assets/img/php.svg">
+                                    </a>
+                                    <h5>PHP</h5>
+                                </div>
+                                <div data-aos="flip-left" data-aos-duration="3000" class="col-lg-2 col-3 p-4 m-auto text-center">
+                                    <a class="img-hover-icon img-hover-icon--colorize" href="javascript:void(0)">
+                                        <img class="w-100 lazyload pb-3" data-src="assets/img/js.svg">
+                                    </a>
+                                    <h5>JavaScript</h5>
+                                </div>
+                                <div data-aos="flip-left" data-aos-duration="3000" class="col-lg-2 col-3 p-4 m-auto text-center">
+                                    <a class="img-hover-icon img-hover-icon--colorize" href="javascript:void(0)">
+                                        <img class="w-100 lazyload pb-3" data-src="assets/img/css.svg">
+                                    </a>
+                                    <h5>CSS</h5>
+                                </div>
+                                <div data-aos="flip-left" data-aos-duration="3000" class="col-lg-2 col-3 p-4 m-auto text-center">
+                                    <a class="img-hover-icon img-hover-icon--colorize" href="javascript:void(0)">
+                                        <img class="w-100 lazyload pb-3" data-src="assets/img/mysql.svg">
+                                    </a>
+                                    <h5>MySQL</h5>
+                                </div>
+                                <div data-aos="flip-left" data-aos-duration="3000" class="col-lg-2 col-3 p-4 m-auto text-center">
+                                    <a class="img-hover-icon img-hover-icon--colorize" href="javascript:void(0)">
+                                        <img class="w-100 lazyload pb-3" data-src="assets/img/bootstrap.svg">
+                                    </a>
+                                    <h5>Bootstrap</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Proyectos -->
+        <div  data-aos="fade-up" id="proyectos" class="mt-4 pt-5">
+            <div class="container-sm ">
+                <div class="py-3 w-25 me-auto">
+                    <h1  data-aos="zoom-in-up" data-aos-duration="700">Proyectos</h1>
+                </div>
+                <div class="p-md-5">  
+
+                    <div class="row my-3">
+                        <div data-aos="zoom-in-up" class="col-md-5 offset-md-1 col-6 my-2 mx-auto">
+                            <div class="mb-1">
+                                <small><i>Página Web de B2B</i></small>
+                                <h4 class="caption-projects">Vazlo Online</h4>
+                            </div>
+                            <a class="img-hover-zoom img-hover-zoom--colorize" href="javascript:verModal('vazlo');">
+                                <img class="w-100" src="assets/img/proyectos/caption_vazlo.png">	
+                            </a>
+                        </div>
+                        <div data-aos="zoom-in-up" class="col-md-5 offset-md-1 col-6 my-2 mx-auto grid-upward">
+                            <div class="mb-1">
+                                <small><i>Página administrativa interna del corporativo Vazlo</i></small>
+                                <h4 class="caption-projects">Requisiciones</h4>
+                            </div>
+                            <a class="img-hover-zoom img-hover-zoom--colorize" href="javascript:verModal('requisicion');">
+                                <img class="w-100" src="assets/img/proyectos/caption_requisicion.png">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="row my-3">                        
+                        <div data-aos="zoom-in-up" class="col-md-5 offset-md-1 col-6 my-2 mx-auto">
+                            <div class="mb-1">
+                                <small><i>Página administrativa interna del corporativo Vazlo</i></small>
+                                <h4 class="caption-projects">Admin Panel</h4>
+                            </div>
+                            <a class="img-hover-zoom img-hover-zoom--colorize" href="javascript:verModal('bd_panel');">
+                                <img class="w-100" src="assets/img/proyectos/caption_bdpanel.png">	
+                            </a>
+                        </div>
+                        <div data-aos="zoom-in-up" class="col-md-5 offset-md-1 col-6 my-2 mx-auto grid-upward">
+                            <div class="mb-1">
+                                <small><i>Página Web de B2B</i></small>
+                                <h4 class="caption-projects">Kineza</h4>
+                            </div>  
+                            <a class="img-hover-zoom img-hover-zoom--colorize" href="javascript:verModal('kineza');">
+                                <img class="w-100" src="assets/img/proyectos/caption_kineza.png">
+                            </a>                          
+                        </div>
+                    </div>
+
+                    
+                    <div class="row my-3">
+                        
+                        <div data-aos="zoom-in-up" class="col-md-5 offset-md-1 col-6 my-2 mx-auto">
+                            <div class="mb-1">
+                                <small><i>Página de aterrizaje</i></small>
+                                <h4 class="caption-projects">Kineza</h4>
+                            </div>
+                            <a class="img-hover-zoom img-hover-zoom--colorize" href="javascript:verModal('landing');">
+                                <img class="w-100" src="assets/img/proyectos/caption_landing.png">
+                            </a>
+                        </div>
+                        <div data-aos="zoom-in-up" class="col-md-5 offset-md-1 col-6 my-2 mx-auto grid-upward">
+                            <div class="mb-1">
+                                <small><i>Página administrativa interna del corporativo Vazlo</i></small>
+                                <h4 class="caption-projects">Refaccim</h4>
+                            </div>
+                            <a class="img-hover-zoom img-hover-zoom--colorize" href="javascript:verModal('refas');">
+                                <img class="w-100" src="assets/img/proyectos/caption_refas.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col text-center mt-5">
+                            <strong class="display-4">¡Y esta página!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Proyectos -->
+    </div>
+
+    <div class="bg-violet my-4 p-1 w-100"></div>
+
+    <!--|| PIE DE PAGINA ||-->
+    <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-3 col-md-2 mb-3">
+                <div class="d-flex w-100 h-100  flex-column align-items-center justify-content-center">
+                    <img src="assets/img/crowller.png" alt="crowller_icon" style="width: 6rem;">
+                </div>
+            </div>  
+            <div class="col-9 col-md-6 offset-md-4 mb-3">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#">Inicio</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#proyectos">Proyectos</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="galeria.html">Arte</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#acerca">Acerca de</a></li>
+                <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#habilidades">Habilidades</a></li>
+              </ul>
+            </div>      
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2024 José Alejandro Gómez González. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="text-white" href="https://www.twitter.com/tcrowller/" target="_blank"><i class="fa fa-brands fa-twitter fa-lg"></i></a></li>
+              <li class="ms-3"><a class="text-white" href="https://www.instagram.com/tcrowller/" target="_blank"><i class="fa fa-brands fa-instagram fa-lg"></i></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    <!--|| PIE DE PAGINA ||-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalPr" tabindex="-1" role="dialog" aria-labelledby="modalPrLabel" aria-hidden="true" data-bs-theme="dark">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content" id="contenProy">
+        
+        </div>
+    </div>
+    </div>
+    <!-- Modal -->
+  
+  
+    <!--|| BOTON A INICIO DE PAGINA ||-->
+    <a href="#" class="scrollToTop"></a>
+    <!--|| BOTON A INICIO DE PAGINA ||-->
+
+</body>
+<!-- Script form boostrap -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+<!-- Script form jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- SWAL ACTUALIZADO -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- CDN AOS (LIBRERIA DE ANIMATION ON SCROLL) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- CDN PARA LAZYSIZES (CARGA LENTA) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+<script src="assets/js/pers.js"></script><!-- || SCRIPT PROPIO NECESARIO PARA QUE FUNCIONE LA PAGINA || -->
+<!-- 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+<script>
+  AOS.init();
+
+  function verModal(pagina){
+  	var pag='modals/'+pagina+'.html';
+  	$.ajax({
+	    type: 'GET',
+	    url: pag,
+	    data: {},
+	    success: function(data){
+	      $('#contenProy').html(data);
+	      $('#modalPr').modal('show');
+	    }
+	  });
+  }
+
+  var typed= new Typed(".auto-type",{
+    strings:["Ilustrador","Desarrollador","Creador"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+  })
+</script>
+</html>
